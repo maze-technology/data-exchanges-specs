@@ -11,5 +11,6 @@ union CriterionFilter {
 }
 
 structure Criterion {
+    @required
     filter: CriterionFilter
 }
