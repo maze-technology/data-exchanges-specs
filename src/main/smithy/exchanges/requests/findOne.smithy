@@ -8,9 +8,11 @@ use tech.maze.dtos.exchanges.search#Criterion
 structure FindOne {}
 
 structure FindOneRequest {
+    @required
     criterion: Criterion
 }
 
 structure FindOneResponse {
+    @required
     exchange: Exchange
 }
